@@ -14,16 +14,18 @@ const Register = () => {
 
   return (
     <Fondo>
-      <Card>
+      <div className="register-container"> {/* ✅ Este div centrará el Card */}
+      <Card className="register-card">
         <form className="register-form" onSubmit={handleSubmit}>
           <input type="text" placeholder="Usuario" className="register-input" />
           <input type="password" placeholder="Contraseña" className="register-input" />
           <input type="text" placeholder="Nombre" className="register-input" />
           <input type="email" placeholder="Correo" className="register-input" />
           <button type="submit" className="register-button">Registrarse</button>
-          <Link to="/" className="register-link">¿Ya tiene una cuenta?</Link>
+          <Link to="/Login" className="register-link">¿Ya tiene una cuenta?</Link>
         </form>
       </Card>
+      </div>
     </Fondo>
   );
 };

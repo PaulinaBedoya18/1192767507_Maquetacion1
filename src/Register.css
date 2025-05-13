@@ -1,8 +1,29 @@
+/* register-card maneja el diseño */
+.register-card {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  padding: 40px 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d4c7b0;
+}
+
+/* Solo estructura del form */
 .register-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
   
   .register-input {
     padding: 10px;

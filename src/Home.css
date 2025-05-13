@@ -1,11 +1,59 @@
-.page-content {
-    flex: 1;
-    padding: 40px;
-    font-family: sans-serif;
-  }
-  
-  .page-content h1 {
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
-  
+.page-container {
+  display: flex;
+  height: 100vh;
+}
+
+.home-content {
+  flex: 1;
+  padding: 40px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  overflow-y: auto;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.banner {
+  background-color: #fceabb;
+}
+
+.titulo {
+  text-align: center;
+}
+
+
+.descripcion {
+  background-color: #e0f7fa;
+}
+
+.servicios-destacados {
+  background-color: #fff3e0;
+}
+
+.mini-cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.mini-card {
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.promociones {
+  background-color: #f8bbd0;
+}

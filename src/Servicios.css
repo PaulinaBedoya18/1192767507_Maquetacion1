@@ -1,15 +1,37 @@
-.page-container {
-  display: flex;
-  height: 100vh;
+.servicios-container {
+  padding: 40px 20px;
+  min-height: 100vh;
 }
 
-.page-content {
-  flex: 1;
-  padding: 40px;
-  font-family: sans-serif;
-}
-
-.page-content h1 {
+.servicios-titulo {
+  text-align: center;
   font-size: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.servicios-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.servicio-card {
+  background-color: #fff;
+  padding: 20px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.servicio-card:hover {
+  transform: translateY(-5px);
+}
+
+.servicio-icono {
+  width: 60px;
+  margin-bottom: 15px;
 }
