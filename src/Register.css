@@ -1,0 +1,31 @@
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .register-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .register-button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .register-link {
+    font-size: 14px;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  

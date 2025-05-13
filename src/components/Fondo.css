@@ -1,0 +1,8 @@
+
+.fondo {
+  background-color: #d3c9bb;
+  min-height: 100vh;
+  border: 4px solid black;
+  box-sizing: border-box;
+  overflow: hidden;
+}
