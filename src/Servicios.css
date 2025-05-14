@@ -32,6 +32,27 @@
 }
 
 .servicio-icono {
-  width: 60px;
+  width: 90px;
   margin-bottom: 15px;
+}
+
+.precio {
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.solicitar-btn {
+  background-color: #25D366; /* color WhatsApp */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.solicitar-btn:hover {
+  background-color: #1ebe5d;
 }
